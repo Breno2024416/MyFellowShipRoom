@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MyFellowShipRoom | Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🏠 MyFellowShipRoom</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="tasks.html">Tasks</a>
+      <a href="messages.html">Messages</a>
+      <a href="dashboard.html" class="active">Dashboard</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>📝 My Tasks</h2>
+
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="Enter a new task" required />
+      <button type="submit" class="cta-button">Add Task</button>
+    </form>
+
+    <ul id="task-list"></ul>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MyFellowShipRoom. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

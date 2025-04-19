@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f6f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #6a5acd;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1em;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 2em;
+  text-align: center;
+}
+
+.cta-button {
+  background-color: #6a5acd;
+  color: white;
+  padding: 0.7em 1.5em;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1em;
+  display: inline-block;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #ddd;
+  margin-top: 2em;
+}
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.logo-img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
